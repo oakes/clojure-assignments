@@ -3,6 +3,11 @@
 * Use industry-standard tools
   * JDK 8
   * IntelliJ + Cursive
+* Focus on data structures
+  * Emphasize the distinction between code and data
+  * Think about the data first, and the code will follow
+  * Design projects specifically around use of various data structures
+* Start with a Clojure REPL instead of overwhelming students with a full project structure
 
 ## Week 1
 

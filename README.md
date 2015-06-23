@@ -2,7 +2,7 @@
 
 * Use industry-standard tools
   * JDK 8
-  * IntelliJ + Cursive
+  * IntelliJ + [Cursive](https://cursiveclojure.com/)
 * Focus on data structures
   * Emphasize the distinction between code and data
   * Think about the data first, and the code will follow

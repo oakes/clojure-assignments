@@ -24,12 +24,21 @@
   * Vectors
     * `(def names ["Alice" "Bob" "Charlie"])`
     * `(get names 0)`
-    * `(count names)`
     * `(conj names "Daniel")`
+    * `(count names)`
+    * `(shuffle names)`
+    * `(rand-nth names)`
   * Maps
     * `(def player {:name "Alice" :age 25})`
     * `(get player :name)`
     * `(assoc player :score 5)`
+  * Loops
+    * `(doseq [name names] (println name))`
+  * Define a function
+    * `(println "Hello, world!")`
+    * `(format "Hello, %s!" (get player :name))`
+    * `(defn say-hello [] (println "Hello, world!"))`
+    * `(defn say-hello [& names] (doseq [name names] (println (format "Hello, %s!" name))))`
 * Add "Run" configuration
   * Edit Configurations... -> Add -> Leiningen
   * Arguments: `run`

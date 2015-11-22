@@ -13,6 +13,8 @@
     * `(def score 1)`
     * `(+ score 1)`
     * `(def score (+ score 1))`
+    * `(def health 100)`
+    * `(def health (* health 0.75))`
     * `(def player-name "Alice")`
     * `(= score 1)`
     * `(not= score 1)`

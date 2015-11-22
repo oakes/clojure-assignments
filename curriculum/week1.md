@@ -8,9 +8,9 @@
     * Lisp
     * ML
   * Major programming paradigms
-    * Procedural
-    * Object-Oriented
-    * Functional
+    * Procedural: `add(nameList, "Charlie")`
+    * Object-Oriented: `nameList.add("Charlie")`
+    * Functional: `nameList = add(nameList, "Charlie")`
   * Java is an *object-oriented* language in the *C* family
   * Clojure is a *functional* language in the *Lisp* family
 * Install the [Cursive](https://cursiveclojure.com/staging/userguide/) IntelliJ plugin

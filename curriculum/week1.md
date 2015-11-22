@@ -5,6 +5,7 @@
 * Install the [Cursive](https://cursiveclojure.com/staging/userguide/) IntelliJ plugin
 * Create hello-clojure
   * Create New Project -> Leiningen
+  * Template: `app`
 * Add "REPL" configuration
   * Edit Configurations... -> Add -> Clojure REPL -> Local
   * Name: `REPL`
@@ -29,3 +30,7 @@
     * `(def player {:name "Alice" :age 25})`
     * `(get player :name)`
     * `(assoc player :score 5)`
+* Add "Run" configuration
+  * Edit Configurations... -> Add -> Leiningen
+  * Arguments: `run`
+* Edit and run `core.clj`

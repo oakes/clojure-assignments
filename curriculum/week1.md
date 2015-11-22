@@ -44,3 +44,6 @@
   * Edit Configurations... -> Add -> Leiningen
   * Arguments: `run`
 * Edit and run `core.clj`
+* Build JAR file
+  * Leiningen tab -> `uberjar` task
+  * It will be in `target/uberjar`

@@ -32,11 +32,12 @@
     * `(def player {:name "Alice" :age 25})`
     * `(get player :name)`
     * `(assoc player :score 5)`
-  * Loops
-    * `(doseq [name names] (println name))`
-  * Define a function
+  * Print strings and loop over vector
     * `(println "Hello, world!")`
+    * `(doseq [name names] (println name))`
     * `(format "Hello, %s!" (get player :name))`
+    * `(doseq [name names] (println (format "Hello, %s!" name)))`
+  * Define a function
     * `(defn say-hello [] (println "Hello, world!"))`
     * `(defn say-hello [& names] (doseq [name names] (println (format "Hello, %s!" name))))`
 * Add "Run" configuration

@@ -2,6 +2,17 @@
 
 ### Day 1
 
+* Overview of programming languages
+  * Major language families
+    * C
+    * Lisp
+    * ML
+  * Major programming paradigms
+    * Procedural
+    * Object-Oriented
+    * Functional
+  * Java is an *object-oriented* language in the *C* family
+  * Clojure is a *functional* language in the *Lisp* family
 * Install the [Cursive](https://cursiveclojure.com/staging/userguide/) IntelliJ plugin
 * Create hello-clojure
   * Create New Project -> Leiningen

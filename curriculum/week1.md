@@ -32,6 +32,14 @@
     * `(def player {:name "Alice" :age 25})`
     * `(get player :name)`
     * `(assoc player :score 5)`
+  * Sets
+    * `(def unique-names #{"Alice" "Bob" "Charlie"})`
+    * `(conj unique-names "Alice")`
+  * Lists
+    * All functions are simply lists of data
+    * To prevent the function from running, you must quote it
+    * `(def names-list '("Alice" "Bob" "Charlie"))`
+    * `(conj names-list "Daniel")`
   * Print strings and loop over vector
     * `(println "Hello, world!")`
     * `(doseq [name names] (println name))`

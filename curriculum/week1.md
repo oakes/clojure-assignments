@@ -3,11 +3,17 @@
 ### Day 1
 
 * Overview of programming languages
-  * Major language families
+  * Major syntax families
     * C
+      * `int score = 1;`
+      * `sayHello("Alice");`
+      * `if (isDone) { sayHello("Alice"); }`
     * Lisp
+      * `(def score 1)`
+      * `(say-hello "Alice")`
+      * `(if is-done? (say-hello "Alice"))`
     * ML
-  * Major programming paradigms
+  * Major paradigms
     * Procedural: `add(nameList, "Charlie")`
     * Object-Oriented: `nameList.add("Charlie")`
     * Functional: `nameList = add(nameList, "Charlie")`

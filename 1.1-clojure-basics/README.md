@@ -1,4 +1,4 @@
-# Basics
+# Clojure Basics
 
 ![screenshot](screenshot.jpg)
 

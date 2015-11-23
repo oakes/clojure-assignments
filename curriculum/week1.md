@@ -75,6 +75,9 @@
   * Arguments: `run`
   * Check "Use trampoline"
 * Edit and run `core.clj`
+* Open the hello-clojure project
+  * Use `read-line` and `println`
+  * Define local variables with `let`
 * Build JAR file
   * Leiningen tab -> `uberjar` task
   * It will be in `target/uberjar`

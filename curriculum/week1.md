@@ -4,15 +4,15 @@
 
 * Overview of programming languages
   * Major syntax families
-    * C
+    * C (Java, JavaScript)
       * `int score = 1;`
       * `sayHello("Alice");`
       * `if (isDone) { sayHello("Alice"); }`
-    * Lisp
+    * Lisp (Scheme, Clojure)
       * `(def score 1)`
       * `(say-hello "Alice")`
       * `(if is-done? (say-hello "Alice"))`
-    * ML
+    * ML (Haskell, F#)
   * Major paradigms
     * Procedural: `add(nameList, "Charlie")`
     * Object-Oriented: `nameList.add("Charlie")`

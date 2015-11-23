@@ -70,14 +70,16 @@
 
 ### Day 2
 
-* Add "Run" configuration
-  * Edit Configurations... -> Add -> Leiningen
-  * Arguments: `run`
-  * Check "Use trampoline"
-* Edit and run `core.clj`
-* Open the hello-clojure project
-  * Use `read-line` and `println`
-  * Define local variables with `let`
-* Build JAR file
-  * Leiningen tab -> `uberjar` task
-  * It will be in `target/uberjar`
+* Open hello-clojure
+  * `def` creates a global variable
+  * `let` creates local variables
+  * `atom` lets you mutate a value safely
+* Create to-do
+  * Add "REPL" configuration
+    * Edit Configurations... -> Add -> Clojure REPL -> Local
+    * Name: `REPL`
+  * Add "Run" configuration
+    * Edit Configurations... -> Add -> Leiningen
+    * Arguments: `run`
+    * Check "Use trampoline"
+  * Open `core.clj`

@@ -85,7 +85,18 @@
   * Use a `loop` to continuously read until `q` is pressed
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
-* Fork people-clojure
+* Open hello-clojure
+  * `repeat` creates a collection with the string repeated
+  * `map` runs a function on every item in a collection
+  * `filter` returns only the items that the function returns true for
+  * `take` returns a subset of the collection
+  * `range` returns all the numbers in the specified range
+  * `(def all-evens (filter even? (range)))`
+  * `(take 10 all-evens)`
+* Create people-clojure
+  * Add "REPL" configuration
+    * Edit Configurations... -> Add -> Clojure REPL -> Local
+    * Name: `REPL`
   * Read the file and split it into lines
   * Split each line by commas
   * Pull out the header row

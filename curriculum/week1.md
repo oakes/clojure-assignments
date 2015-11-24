@@ -70,10 +70,6 @@
 
 ### Day 2
 
-* Open hello-clojure
-  * `def` creates a global variable
-  * `let` creates local variables
-  * `atom` lets you mutate a value
 * Create to-do-clojure
   * Add "Run" configuration
     * Edit Configurations... -> Add -> Leiningen
@@ -85,14 +81,6 @@
   * Use a `loop` to continuously read until `q` is pressed
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
-* Open hello-clojure
-  * `map` runs a function on every item in a collection
-  * `filter` returns only the items that the function returns true for
-  * `repeat` creates a collection with the string repeated
-  * `take` returns a subset of the collection
-  * `range` returns all the numbers in the specified range
-  * `(def all-evens (filter even? (range)))`
-  * `(take 10 all-evens)`
 * Create people-clojure
   * Add "REPL" configuration
     * Edit Configurations... -> Add -> Clojure REPL -> Local
@@ -103,7 +91,11 @@
   * Map over the people to interleave the header into them
   * Turn all the people into hash-maps
   * Keywordize the keys
-  * Filter out only people form a certain country
+  * Filter out only people from a certain country
+
+### Day 3
+
+* Open people-clojure
   * Display people in HTML
     * Dependencies
       * `[ring "1.4.0"]`
@@ -115,3 +107,4 @@
       * `(jetty/run-jetty handler {:port 3000 :join? false})`
     * Require `hiccup.core`
     * Use `hiccup/html` to generate html
+* Functional programming in Java

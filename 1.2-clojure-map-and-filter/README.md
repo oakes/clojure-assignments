@@ -9,6 +9,8 @@ Read and parse the CSV file of purchase data. Allow the user to filter the list 
 ## Requirements
 
 * Create a project with `purchases.csv` in it
+  * Create New Project -> Leiningen
+  * Template: `app`
 * Read the file and parse it into a vector of lines
 * Split each line into vectors (delimited by commas)
 * Separate the header from the rest of the lines

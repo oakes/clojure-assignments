@@ -86,9 +86,9 @@
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
 * Open hello-clojure
-  * `repeat` creates a collection with the string repeated
   * `map` runs a function on every item in a collection
   * `filter` returns only the items that the function returns true for
+  * `repeat` creates a collection with the string repeated
   * `take` returns a subset of the collection
   * `range` returns all the numbers in the specified range
   * `(def all-evens (filter even? (range)))`
@@ -104,3 +104,14 @@
   * Turn all the people into hash-maps
   * Keywordize the keys
   * Filter out only people form a certain country
+  * Display people in HTML
+    * Dependencies
+      * `[ring "1.4.0"]`
+      * `[hiccup "1.0.5"]`
+    * Create a handler function that returns:
+      * `{:status 200 :headers {"Content-Type" "text/html"} :body "Hello World"}`
+    * Require `ring.adapter.jetty`
+    * In the main function, run:
+      * `(jetty/run-jetty handler {:port 3000 :join? false})`
+    * Require `hiccup.core`
+    * Use `hiccup/html` to generate html

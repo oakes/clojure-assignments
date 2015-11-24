@@ -73,13 +73,14 @@
 * Open hello-clojure
   * `def` creates a global variable
   * `let` creates local variables
-  * `atom` lets you mutate a value safely
+  * `atom` lets you mutate a value
 * Create to-do
-  * Add "REPL" configuration
-    * Edit Configurations... -> Add -> Clojure REPL -> Local
-    * Name: `REPL`
   * Add "Run" configuration
     * Edit Configurations... -> Add -> Leiningen
     * Arguments: `run`
     * Check "Use trampoline"
   * Open `core.clj`
+  * Create `atom`
+  * Create `let` that adds the result of `read-line` to the atom
+  * Use a `loop` to continuously read until `q` is pressed
+  * Use a `doseq` to print out the results

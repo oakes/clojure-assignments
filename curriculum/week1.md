@@ -63,9 +63,9 @@
     * `(format "Hello, %s!" (get player :name))`
     * `(doseq [name names] (println (format "Hello, %s!" name)))`
   * Define a function
-    * `(fn [] (println "Hello, world!"))`
-    * `(def say-hello (fn [] (println "Hello, world!")))`
-    * `(defn say-hello [] (println "Hello, world!"))`
+    * `(fn [name] (println (format "Hello, %s!" name)))`
+    * `(def say-hello (fn [name] (println (format "Hello, %s!" name))))`
+    * `(defn say-hello [name] (println (format "Hello, %s!" name)))`
     * `(defn say-hello [& names] (doseq [name names] (println (format "Hello, %s!" name))))`
 
 ### Day 2

@@ -74,7 +74,7 @@
   * `def` creates a global variable
   * `let` creates local variables
   * `atom` lets you mutate a value
-* Create to-do
+* Create to-do-clojure
   * Add "Run" configuration
     * Edit Configurations... -> Add -> Leiningen
     * Arguments: `run`
@@ -85,4 +85,11 @@
   * Use a `loop` to continuously read until `q` is pressed
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
-* Representing a deck of cards in Java vs Clojure
+* Fork people-clojure
+  * Read the file and split it into lines
+  * Split each line by commas
+  * Pull out the header row
+  * Map over the people to interleave the header into them
+  * Turn all the people into hash-maps
+  * Keywordize the keys
+  * Filter out only people form a certain country

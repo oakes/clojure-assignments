@@ -84,4 +84,5 @@
   * Create `let` that adds the result of `read-line` to the atom
   * Use a `loop` to continuously read until `q` is pressed
   * Use a `doseq` to print out the results
+  * Save the to-do list to a file
 * Representing a deck of cards in Java vs Clojure

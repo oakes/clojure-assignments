@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1448380949133">{:repl-history {:ide [], :local [&quot;(def to-dos (atom []))&quot; &quot;to-dos&quot; &quot;(reset! to-dos [\&quot;Wash car\&quot;])&quot; &quot;(reset! to-dos (conj (deref to-dos) \&quot;Buy groceries\&quot;))&quot; &quot;(deref to-dos)&quot;], :remote []}}</component>
+</project>

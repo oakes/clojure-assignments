@@ -1,4 +1,4 @@
-# Map and Filter
+# Clojure Map and Filter
 
 ![screenshot](screenshot.png)
 

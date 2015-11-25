@@ -71,7 +71,7 @@
 ### Day 2
 
 * Review assignment (clojure basics - 4clojure)
-* Create to-do-clojure
+* Create [to-do-clojure](../projects/to-do-clojure)
   * Add "Run" configuration
     * Edit Configurations... -> Add -> Leiningen
     * Arguments: `run`
@@ -82,7 +82,7 @@
   * Use a `loop` to continuously read until `q` is pressed
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
-* Create people-clojure
+* Create [people-clojure](../projects/people-clojure)
   * Add "REPL" configuration
     * Edit Configurations... -> Add -> Clojure REPL -> Local
     * Name: `REPL`

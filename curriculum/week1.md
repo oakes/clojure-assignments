@@ -122,3 +122,7 @@
     * Require `hiccup.core`
     * Use `hiccup/html` to generate html
 * Functional programming in Java
+  * Start with an array of names
+  * Make every name uppercase
+  * Remove the ones that start with "A"
+  * Solve via streams (map and filter)

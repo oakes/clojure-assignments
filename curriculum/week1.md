@@ -118,7 +118,7 @@
       * `{:status 200 :headers {"Content-Type" "text/html"} :body "Hello World"}`
     * Require `ring.adapter.jetty`
     * In the main function, run:
-      * `(jetty/run-jetty #'handler {:port 3000})`
+      * `(jetty/run-jetty #'handler {:port 3000 :join? false})`
     * Require `hiccup.core`
     * Use `hiccup/html` to generate html
 * Functional programming in Java

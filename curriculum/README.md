@@ -27,9 +27,9 @@
 
 ## Week 2
 
-* Java Interop
-  * Introduce the syntax
-  * "Embrace the platform" philosophy
 * Parallelism and Concurrency
   * Parallelism: pmap, pvalues
   * Concurrency: var, atom, ref, agent
+* Java Interop
+  * Introduce the syntax
+  * "Embrace the platform" philosophy

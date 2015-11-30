@@ -26,14 +26,15 @@
 ### Day 2
 
 * Review assignment
-* Java interop with Clojure
+* Parallelism
+  * Clojure `pmap` and `pvalues`
+  * Java `parallelStream`
 * Return JSON instead of HTML in Clojure
-* Contrast Java streams and traditional loops in solving problems
 
 ### Day 3
 
 * Review assignment
-* Review web app development in Clojure and Java
+* Java interop with Clojure
 * Deploying to a server
 
 ### Day 4

@@ -3,9 +3,13 @@
 ### Day 1
 
 * Review assignment (clojure web - ring and hiccup)
-* Review data transformations (map, filter, interleave, etc)
-* Parallelism (pmap and pvalues)
-* More work with Hiccup
+* Create cards-clojure
+  * Create Run and REPL configurations
+  * Make a `def` for suits and ranks
+  * Make `create-deck`
+  * Add `rank-names`
+  * Review data transformations (map, filter, interleave, etc)
+  * Parallelism (pmap and pvalues)
 * Java streams and parallel streams
 * Java method references
 

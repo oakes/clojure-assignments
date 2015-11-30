@@ -3,13 +3,15 @@
 ### Day 1
 
 * Review assignment (clojure web - ring and hiccup)
+* Difference between Java and Clojure `for` loops
+* Review the four primary data structures (vector, map, list, set)
 * Create cards-clojure
   * Create Run and REPL configurations
   * Make a `def` for suits and ranks
-  * Make `create-deck`
-  * Add `rank-names`
-  * Review data transformations (map, filter, interleave, etc)
-  * Parallelism (pmap and pvalues)
+  * `create-deck` returns a deck of cards
+  * `rank-names` associates numbers to card names
+  * `create-hands` returns all possible combinations
+  * `flush?` returns true if the hand is a flush
 * Java streams and parallel streams
 * Java method references
 

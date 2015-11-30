@@ -25,7 +25,13 @@
 
 ### Day 2
 
-* Review assignment
+* Review assignment (clojure review - cards)
+* Why functional programming?
+  * Fewer bugs
+  * Easier parallelism
+* More Clojure features
+  * `memoize` and `delay`
+  * destructuring
 * Parallelism
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`

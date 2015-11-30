@@ -5,7 +5,7 @@
 * Review assignment (clojure web - ring and hiccup)
 * Difference between Java and Clojure `for` loops
 * Review the four primary data structures (vector, map, list, set)
-* Create cards-clojure
+* Create [cards-clojure](../projects/cards-clojure)
   * Create Run and REPL configurations
   * Make a `def` for suits and ranks
   * `create-deck` returns a deck of cards
@@ -13,7 +13,7 @@
   * `create-hands` returns all possible combinations
   * `flush?` returns true if the hand is a flush
   * Write a test for the `flush?` function
-* Create Cards
+* Create [Cards](../projects/Cards)
   * Create `Card` class
   * Define `Suit` and `Rank` enums
   * `createDeck` returns a deck of cards

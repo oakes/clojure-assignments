@@ -26,21 +26,22 @@
 ### Day 2
 
 * Review assignment (clojure review - cards)
-* Why functional programming?
-  * Fewer bugs
-  * Easier parallelism
+* Lists and lazy sequences
+* Parallelism
+  * Why functional programming?
+    * Fewer bugs
+    * Easier parallelism
+  * Clojure `pmap` and `pvalues`
+  * Java `parallelStream`
 * More Clojure features
   * `memoize` and `delay`
   * destructuring
-* Parallelism
-  * Clojure `pmap` and `pvalues`
-  * Java `parallelStream`
-* Return JSON instead of HTML in Clojure
 
 ### Day 3
 
 * Review assignment
 * Java interop with Clojure
+* Return JSON instead of HTML in Clojure
 * Deploying to a server
 
 ### Day 4

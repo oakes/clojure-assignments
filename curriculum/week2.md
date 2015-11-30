@@ -12,6 +12,7 @@
   * `rank-names` associates numbers to card names
   * `create-hands` returns all possible combinations
   * `flush?` returns true if the hand is a flush
+  * Write a test for the `flush?` function
 * Create Cards
   * Create `Card` class
   * Define `Suit` and `Rank` enums

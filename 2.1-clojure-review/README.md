@@ -15,4 +15,4 @@ Modify the Clojure and Java cards projects we made in class so they can filter s
   * `three-of-a-kind?` returns true if only 3 of the given cards have the same rank
   * `two-pair?` returns true if 2 of the given cards have the same rank, and the other 2 have the same rank
 * Write a test for each function to prove that they work as expected
-* Try to write these functions in the Java `Cards` project
+* Write these functions in the Java `Cards` project

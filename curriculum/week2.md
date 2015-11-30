@@ -12,8 +12,15 @@
   * `rank-names` associates numbers to card names
   * `create-hands` returns all possible combinations
   * `flush?` returns true if the hand is a flush
-* Java streams and parallel streams
-* Java method references
+* Create Cards
+  * Create `Card` class
+  * Define `Suit` and `Rank` enums
+  * `createDeck` returns a deck of cards
+  * Test the `HashSet` from `createDeck`
+    * Override `equals` and `hashCode` in `Card` so the `HashSet` works
+  * `createHands` returns all possible combinations
+  * `isFlush` returns true if the hand is a flush
+* Benchmark the two projects
 
 ### Day 2
 

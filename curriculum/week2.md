@@ -30,7 +30,7 @@
   * Running a function inside itself
   * Use instead of normal `for` loop if you want to control when the loop continues and update its values
   * `(loop [num 0] (if (< num 10) (recur (inc num)) num))`
-* Create maze-clojure
+* Create [maze-clojure](../projects/maze-clojure)
   * Define `size`
   * `create-rooms` returns a vector of vectors containing maps for each room
   * `-main` calls `create-rooms` in a `let` and prints out the maze
@@ -47,7 +47,7 @@
     * Add `:visited? true` to the room and assoc it into the rooms
     * Get `random-neighbor`
     * If it isn't nil, run `tear-down-wall` and create a `loop` that calls `create-maze` until it stops returning new rooms
-* Create Maze
+* Create [Maze](../projects/Maze)
   * Create `Room` class with `row, col, wasVisited, hasBottom, hasRight`
   * Define `size`
   * `createRooms` returns an `ArrayList` of `ArrayList` containing objects for each room

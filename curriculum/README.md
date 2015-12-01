@@ -28,6 +28,9 @@
 ## Week 2
 
 * Recursion with `loop` and `recur`
+* Parallelism and Concurrency
+  * Parallelism: pmap, pvalues
+  * Concurrency: var, atom, ref, agent
 * Java Interop
   * Introduce the syntax
   * "Embrace the platform" philosophy

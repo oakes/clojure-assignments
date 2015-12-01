@@ -43,7 +43,7 @@
     * `(> new-col old-col) ; going right`
     * `(< new-row old-row) ; going up`
     * `(< new-col old-col) ; going left`
-  * `create-maze` takes `rooms room`
+  * `create-maze` takes `rooms row col`
     * Add `:visited? true` to the room and assoc it into the rooms
     * Get `random-neighbor`
     * If it isn't nil, run `tear-down-wall` and create a `loop` that calls `create-maze` until it stops returning new rooms

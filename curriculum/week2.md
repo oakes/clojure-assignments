@@ -26,16 +26,20 @@
 ### Day 2
 
 * Review assignment (clojure review - cards)
-* Lists and lazy sequences
+* Lists
+  * Fast at prepending
+  * Lazy sequences
+    * `(def nums (map inc [1 2 3]))`
+    * `(first nums) ; (inc only ran once)`
+    * `(def all-nums (range))`
+    * `(def all-evens (filter even? all-nums))`
+    * `(take 5 all-evens)`
 * Parallelism
   * Why functional programming?
     * Fewer bugs
     * Easier parallelism
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`
-* More Clojure features
-  * `memoize` and `delay`
-  * destructuring
 
 ### Day 3
 

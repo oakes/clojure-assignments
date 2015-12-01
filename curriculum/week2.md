@@ -35,6 +35,7 @@
     * `(def all-nums (range)) ; (0 1 2 3 4 …)`
     * `(def all-evens (filter even? all-nums)) ; (0 2 4 6 …)`
     * `(take 5 all-evens) ; (0 2 4 6 8)`
+    * `(take-while #(< % 10) all-nums) ; (0 1 2 3 4 5 6 7 8 9)`
 * Why functional programming?
   * Fewer bugs
   * Easier parallelism

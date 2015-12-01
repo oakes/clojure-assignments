@@ -66,7 +66,7 @@
 
 ### Day 3
 
-* Review assignment
+* Review assignment (clojure recursion - maze)
 * Lists
   * Fast at prepending
   * Lazy sequences

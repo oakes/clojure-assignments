@@ -1,4 +1,4 @@
-## Week 2 - Recursion and Java Interop
+## Week 2 - Recursion and Parallelism
 
 ### Day 1
 
@@ -81,9 +81,6 @@
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`
   * Caveat: Amdahl's law
-* Java interop with Clojure
-* Return JSON instead of HTML in Clojure
-* Deploying to a server
 
 ### Day 4
 

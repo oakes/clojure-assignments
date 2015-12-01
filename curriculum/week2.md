@@ -1,4 +1,4 @@
-## Week 2 - Parallelism and Java Interop
+## Week 2 - Recursion and Java Interop
 
 ### Day 1
 

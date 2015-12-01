@@ -36,16 +36,34 @@
     * `(def all-evens (filter even? all-nums)) ; (0 2 4 6 …)`
     * `(take 5 all-evens) ; (0 2 4 6 8)`
     * `(take-while #(< % 10) all-nums) ; (0 1 2 3 4 5 6 7 8 9)`
-* Why functional programming?
-  * Fewer bugs
-  * Easier parallelism
-* Parallelism
-  * Clojure `pmap` and `pvalues`
-  * Java `parallelStream`
+* Recursion
+  * Running a function inside itself
+  * Use instead of normal `for` loop if you want to control when the loop continues and update its values
+  * `(loop [num 0] (if (< num 10) (recur (inc num)) num))`
+* Create maze-clojure
+  * `create-rooms` returns a vector of vectors containing maps for each room
+  * `-main` calls `create-rooms` in a `let` and prints out the maze
+  * `possible-neighbors` returns a vector of rooms
+  * `random-neighbor` takes `rooms`, `x`, and `y`
+    * Filter `possible-neighbors` so they are not nil and not visited
+    * Use `rand-nth` to return a random neighbor if there is at least one neighbor
+  * `tear-down-wall` takes `rooms old-x old-y new-x new-y`
+    * `(> new-y old-y) ; going down`
+    * `(> new-x old-x) ; going right`
+    * `(< new-y old-y) ; going up`
+    * `(< new-x old-x) ; going left`
+  * `create-maze` takes `rooms x y`
+    * Add `:visited? true` to the room in `x`, `y`
+    * Get `random-neighbor`
+    * If it isn't nil, run `tear-down-wall` and create a `loop` that calls `create-maze` until it stops returning new rooms
 
 ### Day 3
 
 * Review assignment
+* Parallelism
+  * Clojure `pmap` and `pvalues`
+  * Java `parallelStream`
+  * Caveat: Amdahl's law
 * Java interop with Clojure
 * Return JSON instead of HTML in Clojure
 * Deploying to a server

@@ -102,6 +102,22 @@
     * Divide into `1000` to get frames per second
   * Display the frames per second: `(.setText fps-label (str (fps now)))`
   * Add `(Thread/sleep 1)` to `move-ant` and use `pmap` to improve performance
+* Create Ants
+  * `static final int ANT_COUNT = 100;`
+  * Define `Ant` class with `double x` and `double y`
+  * Define `ArrayList<Ant> ants` and the `createAnts` method
+  * `createAnts` returns an `ArrayList<Ant>`
+  * Call `createAnts` before the timer is started
+  * `drawAnts` takes `ArrayList<Ant> ant, GraphicsContext context`
+  * `randomStep` returns a number between -1 and 1
+  * `moveAnt` takes an `Ant ant`, changes its position by `randomStep()`, and returns it
+  * `long lastTimestamp = 0;`
+  * `fps` takes a `long now` and returns the frames per second
+    * Calculate the difference between `now` and `lastTimestamp`
+    * Divide by `1000000` to get milliseconds
+    * Divide into `1000` to get frames per second
+  * Display the frames per second: `fpsLabel.setText(fps(now) + "");`
+  * Add `Thread.sleep(1)` to `moveAnt` and use `parallelStream` to improve performance
 
 ### Day 4
 

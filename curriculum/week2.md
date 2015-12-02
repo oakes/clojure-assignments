@@ -81,6 +81,27 @@
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`
   * Caveat: Amdahl's law
+* Create ants-clojure
+  * `(def ant-count 100)`
+  * `(def ants (atom nil))`
+  * `create-ants` returns a list of maps with random `:x` and `:y` fields
+  * Call `(reset! ants (create-ants))` before the timer is started
+  * `draw-ants` takes a `context`
+    * Run `clearRect` to clear the screen
+    * `doseq` over the ants
+      * `(.setFill context Color/BACK)`
+      * `(.fillOval context (:x ant) (:y ant) 5 5)`
+  * Run `draw-ants` in the timer
+  * `random-step` returns a number between -1 and 1
+  * `move-ant` takes an `ant` and `assoc`es a new `:x` and `:y` changed by `(random-step)`
+  * Before drawing the ants, run `(reset! ants (map move-ant (deref ants)))`
+  * `(def last-timestamp (atom 0))`
+  * `fps` takes a `now` and returns the frames per second
+    * Calculate the difference between `now` and `last-timestamp`
+    * Divide by `1000000` to get milliseconds
+    * Divide into `1000` to get frames per second
+  * Display the frames per second: `(.setText fps-label (str (fps now)))`
+  * Add `(Thread/sleep 1)` to `move-ant` and use `pmap` to improve performance
 
 ### Day 4
 

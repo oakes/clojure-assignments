@@ -113,7 +113,7 @@
 
 ### Day 4
 
-* Review assignment
+* Review assignment (clojure parallelism - ants)
 * Lists
   * Fast at prepending
   * Lazy sequences

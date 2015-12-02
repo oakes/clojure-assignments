@@ -68,7 +68,7 @@
 
 * Review assignment (clojure recursion - maze)
 * Parallelism
-  * Clojure `pmap` and `pvalues`
+  * Clojure `pmap`
   * Java `parallelStream`
   * Caveat: Amdahl's law
 * Create ants-clojure

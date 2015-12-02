@@ -67,16 +67,6 @@
 ### Day 3
 
 * Review assignment (clojure recursion - maze)
-* Lists
-  * Fast at prepending
-  * Lazy sequences
-    * The functional alternative to using `break` to get out of a loop
-    * `(def nums (map inc [1 2 3])) ; inc hasn't run yet!`
-    * `(first nums) ; (inc only ran once)`
-    * `(def all-nums (range)) ; (0 1 2 3 4 …)`
-    * `(def all-evens (filter even? all-nums)) ; (0 2 4 6 …)`
-    * `(take 5 all-evens) ; (0 2 4 6 8)`
-    * `(take-while #(< % 10) all-nums) ; (0 1 2 3 4 5 6 7 8 9)`
 * Parallelism
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`
@@ -122,4 +112,14 @@
 ### Day 4
 
 * Review assignment
+* Lists
+  * Fast at prepending
+  * Lazy sequences
+    * The functional alternative to using `break` to get out of a loop
+    * `(def nums (map inc [1 2 3])) ; inc hasn't run yet!`
+    * `(first nums) ; (inc only ran once)`
+    * `(def all-nums (range)) ; (0 1 2 3 4 …)`
+    * `(def all-evens (filter even? all-nums)) ; (0 2 4 6 …)`
+    * `(take 5 all-evens) ; (0 2 4 6 8)`
+    * `(take-while #(< % 10) all-nums) ; (0 1 2 3 4 5 6 7 8 9)`
 * Wrap up

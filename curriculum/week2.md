@@ -71,7 +71,7 @@
   * Clojure `pmap` and `pvalues`
   * Java `parallelStream`
   * Caveat: Amdahl's law
-* Create ants-clojure
+* Create [ants-clojure](../projects/ants-clojure)
   * `(def ant-count 100)`
   * `(def ants (atom nil))`
   * `create-ants` returns a list of maps with random `:x` and `:y` fields
@@ -92,7 +92,7 @@
     * Divide into `1000` to get frames per second
   * Display the frames per second: `(.setText fps-label (str (fps now)))`
   * Add `(Thread/sleep 1)` to `move-ant` and use `pmap` to improve performance
-* Create Ants
+* Create [Ants](../projects/Ants)
   * `static final int ANT_COUNT = 100;`
   * Define `Ant` class with `double x` and `double y`
   * Define `ArrayList<Ant> ants` and the `createAnts` method

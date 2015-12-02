@@ -9,7 +9,7 @@
   * Design projects specifically around use of various data structures
 * Start with a Clojure REPL instead of overwhelming students with a full project structure
 
-## Week 1
+## Week 1 - Intro
 
 * Define Clojure
   * A Lisp
@@ -25,12 +25,10 @@
   * First-class Functions
   * Lazy Sequences
 
-## Week 2
+## Week 2 - Recursion and Parallelism
 
 * Recursion with `loop` and `recur`
-* Parallelism and Concurrency
-  * Parallelism: pmap, pvalues
-  * Concurrency: var, atom, ref, agent
+* Parallelism with `pmap` and `pvalues`
 * Java Interop
   * Introduce the syntax
   * "Embrace the platform" philosophy

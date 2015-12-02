@@ -23,7 +23,6 @@
 * Functional Programming
   * Immutable Data
   * First-class Functions
-  * Lazy Sequences
 
 ## Week 2 - Recursion and Parallelism
 

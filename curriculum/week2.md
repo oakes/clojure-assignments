@@ -101,6 +101,8 @@
   * `drawAnts` takes `ArrayList<Ant> ant, GraphicsContext context`
   * `randomStep` returns a number between -1 and 1
   * `moveAnt` takes an `Ant ant`, changes its position by `randomStep()`, and returns it
+  * `updateAnts` maps over the `ArrayList<Ant>` with `moveAnt`
+  * Before drawing the ants, run `updateAnts`
   * `long lastTimestamp = 0;`
   * `fps` takes a `long now` and returns the frames per second
     * Calculate the difference between `now` and `lastTimestamp`

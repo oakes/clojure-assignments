@@ -124,8 +124,3 @@
     * `(def all-evens (filter even? all-nums)) ; (0 2 4 6 …)`
     * `(take 5 all-evens) ; (0 2 4 6 8)`
     * `(take-while #(< % 10) all-nums) ; (0 1 2 3 4 5 6 7 8 9)`
-* Review Clojure
-  * Global and local variables with `def` and `let`
-  * Named and anonymous functions with `defn` and `fn`
-  * Creating sequences with `map`, `filter`, and `for`
-  * Recursion with `loop` and `recur`

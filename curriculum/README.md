@@ -1,8 +1,6 @@
 ## General
 
-* Use industry-standard tools
-  * JDK 8
-  * IntelliJ + [Cursive](https://cursiveclojure.com/)
+* Use [Nightcode](https://sekao.net/nightcode/)
 * Focus on data structures
   * Emphasize the distinction between code and data
   * Think about the data first, and the code will follow

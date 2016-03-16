@@ -19,13 +19,7 @@
     * Functional: `nameList = add(nameList, "Charlie")`
   * Java is an *object-oriented* language in the *C* family
   * Clojure is a *functional* language in the *Lisp* family
-* Install the [Cursive](https://cursiveclojure.com/staging/userguide/) IntelliJ plugin
-* Create hello-clojure
-  * Create New Project -> Leiningen
-  * Template: `app`
-* Add "REPL" configuration
-  * Edit Configurations... -> Add -> Clojure REPL -> Local
-  * Name: `REPL`
+* Create hello-clojure console project
 * Use the REPL
   * Scalar variables
     * `(def score 1)`
@@ -71,10 +65,6 @@
 ### Day 2
 
 * Create [to-do-clojure](../projects/to-do-clojure)
-  * Add "Run" configuration
-    * Edit Configurations... -> Add -> Leiningen
-    * Arguments: `run`
-    * Check "Use trampoline"
   * Open `core.clj`
   * Create `atom`
   * Create `let` that adds the result of `read-line` to the atom
@@ -82,9 +72,6 @@
   * Use a `doseq` to print out the results
   * Save the to-do list to a file
 * Create [people-clojure](../projects/people-clojure)
-  * Add "REPL" configuration
-    * Edit Configurations... -> Add -> Clojure REPL -> Local
-    * Name: `REPL`
   * Read the file and split it into lines
   * Split each line by commas
   * Pull out the header row

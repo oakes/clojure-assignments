@@ -1,6 +1,6 @@
 ## General
 
-* Use [Nightcode](https://sekao.net/nightcode/)
+* Use [Nightcode](https://sekao.net/nightcode/) or IntelliJ + [Cursive](https://cursiveclojure.com/)
 * Focus on data structures
   * Emphasize the distinction between code and data
   * Think about the data first, and the code will follow

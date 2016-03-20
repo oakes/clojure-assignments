@@ -8,6 +8,6 @@ Do some of the problems on 4clojure. Consider reading through [Do Things: A Cloj
 
 ## Requirements
 
-* [Register a 4clojure account](https://www.4clojure.com/register)
+* [Register a 4clojure account](https://www.4clojure.com/register) and login to it
 * Complete the first sixteen [problems](https://www.4clojure.com/problems) marked as elementary (everything before "Intro to Reduce")
 * Optional: Keep working on problems or try [ClojureScript koans](http://clojurescriptkoans.com/) for another challenge

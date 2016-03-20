@@ -1,6 +1,6 @@
 # Clojure Map and Filter
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.jpg)
 
 ## Description
 

@@ -9,5 +9,5 @@ Do some of the problems on 4clojure. Consider reading through [Do Things: A Cloj
 ## Requirements
 
 * [Login to 4clojure](https://www.4clojure.com/login)
-* Complete the first sixteen [problems](https://www.4clojure.com/problems) marked as elementary
+* Complete the first sixteen [problems](https://www.4clojure.com/problems) marked as elementary (everything before "Intro to Reduce")
 * Optional: Keep working on problems or try [ClojureScript koans](http://clojurescriptkoans.com/) for another challenge

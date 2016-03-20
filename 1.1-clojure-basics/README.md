@@ -4,10 +4,10 @@
 
 ## Description
 
-Do all the "elementary" problems on 4clojure. Consider reading through [Do Things: A Clojure Crash Course](http://www.braveclojure.com/do-things/) to review Clojure fundamentals.
+Do some of the problems on 4clojure. Consider reading through [Do Things: A Clojure Crash Course](http://www.braveclojure.com/do-things/) to review Clojure fundamentals.
 
 ## Requirements
 
 * [Login to 4clojure](https://www.4clojure.com/login)
-* Complete all the [problems](https://www.4clojure.com/problems) marked as elementary
-* Optional: Keep working on problems with higher difficulty levels
+* Complete the first sixteen [problems](https://www.4clojure.com/problems) marked as elementary
+* Optional: Keep working on problems or try [ClojureScript koans](http://clojurescriptkoans.com/) for another challenge

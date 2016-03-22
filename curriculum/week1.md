@@ -69,8 +69,7 @@
   * Create `atom`
   * Create `let` that adds the result of `read-line` to the atom
   * Use a `loop` to continuously read until `q` is pressed
-  * Use a `doseq` to print out the results
-  * Save the to-do list to a file
+  * Print out the to-do list
 * Create [people-clojure](../projects/people-clojure)
   * Read the file and split it into lines
   * Split each line by commas

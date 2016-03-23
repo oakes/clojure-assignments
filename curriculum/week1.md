@@ -82,7 +82,6 @@
 
 ### Day 3
 
-* Representing a deck of cards in Clojure vs Java 8
 * Open people-clojure
   * Display people in HTML
     * Dependencies
@@ -98,8 +97,3 @@
       * `(jetty/run-jetty #'handler {:port 3000 :join? false})`
     * Require `hiccup.core`
     * Use `hiccup/html` to generate html
-* Functional programming in Java
-  * Start with an array of names
-  * Make every name uppercase
-  * Remove the ones that start with "A"
-  * Solve via streams (map and filter)

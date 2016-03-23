@@ -92,7 +92,7 @@
       * Make it return `people` instead
     * Require `compojure.core`
     * Create a `/` route
-      * `(c/defroutes app (c/GET "/" [] "Hello, world!"))`
+      * `(c/defroutes app (c/GET "/" request "Hello, world!"))`
     * Require `ring.adapter.jetty`
     * In the main function, run:
       * `(jetty/run-jetty app {:port 3000})`

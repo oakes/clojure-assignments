@@ -14,5 +14,5 @@ Display the purchase data from the previous assignment in a webpage using ring, 
   * `[compojure "1.5.0"]`
 * Move the code in your `-main` function to a separate function
 * Create your `/` route and run jetty in your `-main` function
-* In the `handler` function, use hiccup to generate html that displays your purchase data
+* In the `/` route, use hiccup to generate html that displays your purchase data
 * Add links at the top to filter by category.

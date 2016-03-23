@@ -87,12 +87,12 @@
       * `[ring "1.4.0"]`
       * `[hiccup "1.0.5"]`
     * Move CSV code into separate function
-      * Use a reader comment for the `spit` call
+      * Comment out the `spit` call
       * Make it return `people` instead
     * Create a handler function that returns:
       * `{:status 200 :headers {"Content-Type" "text/html"} :body "Hello World"}`
     * Require `ring.adapter.jetty`
     * In the main function, run:
-      * `(jetty/run-jetty #'handler {:port 3000 :join? false})`
+      * `(jetty/run-jetty handler {:port 3000})`
     * Require `hiccup.core`
     * Use `hiccup/html` to generate html

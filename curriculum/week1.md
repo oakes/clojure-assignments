@@ -101,3 +101,4 @@
     * Require `ring.middleware.params`
     * Pass the app through the `wrap-params` function so params are parsed
     * Pass a GET parameter to determine which country to filter by
+    * Add a header with links to each country

@@ -106,5 +106,5 @@
 ### Day 4
 
 * Try to solve a [4clojure problem](https://www.4clojure.com/problem/73) together
-* Create forum-clojure with REPL-driven development
+* Create microblog-clojure with REPL-driven development
 * [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)

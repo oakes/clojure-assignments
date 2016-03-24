@@ -105,6 +105,6 @@
 
 ### Day 4
 
-* Try to solve a [4clojure problem](https://www.4clojure.com/problem/73) together
-* Create microblog-clojure with REPL-driven development
-* [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)
+* Create [tic-tac-toe-clojure](../projects/tic-tac-toe-clojure)
+  * Solves a [4clojure problem](https://www.4clojure.com/problem/73)
+* Create [microblog-clojure](../projects/microblog-clojure)

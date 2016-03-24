@@ -107,5 +107,4 @@
 
 * Try to solve a [4clojure problem](https://www.4clojure.com/problem/73) together
 * Create forum-clojure with REPL-driven development
-* Make a clojure game in which you move a shape around
 * [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)

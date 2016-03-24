@@ -102,3 +102,10 @@
     * Pass the app through the `wrap-params` function so params are parsed
     * Pass a GET parameter to determine which country to filter by
     * Add a header with links to each country
+
+### Day 4
+
+* Try to solve a [4clojure problem](https://www.4clojure.com/problem/73) together
+* Create forum-clojure with REPL-driven development
+* Make a clojure game in which you move a shape around
+* [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)

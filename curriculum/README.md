@@ -1,6 +1,6 @@
 ## General
 
-* Use [Nightcode](https://sekao.net/nightcode/) or IntelliJ + [Cursive](https://cursiveclojure.com/)
+* Use [Nightcode](https://sekao.net/nightcode/)
 * Focus on data structures
   * Emphasize the distinction between code and data
   * Think about the data first, and the code will follow
@@ -21,11 +21,9 @@
 * Functional Programming
   * Immutable Data
   * First-class Functions
+* Web apps with ring, hiccup, and compojure
 
 ## Week 2 - Recursion and Parallelism
 
 * Recursion with `loop` and `recur`
-* Parallelism with `pmap` and `pvalues`
-* Java Interop
-  * Introduce the syntax
-  * "Embrace the platform" philosophy
+* Parallelism with `pmap`

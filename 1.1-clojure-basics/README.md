@@ -9,5 +9,7 @@ Do some of the problems on 4clojure. Consider reading through [Do Things: A Cloj
 ## Requirements
 
 * [Register a 4clojure account](https://www.4clojure.com/register) and login to it
-* Complete all the elementary [problems](https://www.4clojure.com/problems) listed before "Intro to Reduce"
+* Complete all the elementary [problems](https://www.4clojure.com/problems) listed in the screenshot below.
 * Optional: Keep working on problems or try [ClojureScript koans](http://clojurescriptkoans.com/) for another challenge
+
+![problems](problems.png)
